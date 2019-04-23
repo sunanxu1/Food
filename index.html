@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>美食首页</title>
+	<link rel="stylesheet" type="text/css" href="libCss/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+		   <div class="row">
+		   	<div class="hidden-xs col-md-8 col-lg-8">
+    		   <div id="navbar" class="navbar-collapse collapse">
+    		    <ul class="nav navbar-nav pull-left">
+    			    <li><a href="index.html">美食天下</a></li>
+                   <li><a href="caipu.html">菜谱</a></li>
+                   <li><a href="log.html">美食日志</a></li>
+                   <li><a href="book.html">预定美食</a></li>
+                   <!-- <li><a href="#">我的预定</a></li> -->
+                   <li><a href="mofang.html">美食魔方</a></li>
+                   <li><a href="contact.html">联系我</a></li>               
+    			</ul>
+    		   </div>
+    	    </div>
+    	    <div class="reg col-xs-6 col-md-4 col-lg-4">
+    	    	 <a href="#">注册</a>
+                <a href="#">登录</a>
+    	    </div>
+    	    <div class="visible-xs-block col-xs-6">
+    	        <div class="nav nav-hamburger pull-right">
+                       <a href="#ham" class="dropdown-toggle" data-toggle="dropdown"   role="button" aria-haspopup="true" aria-expanded="false">
+                         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                      </a>
+                      <ul class="dropdown-menu pull-right">
+                             <li><a href="index.html">美食天下</a></li>
+                             <li><a href="caipu.html">菜谱</a></li>
+                             <li><a href="log.html">美食日志</a></li>
+                             <li><a href="book.html">预定美食</a></li>
+                             <li><a href="mofang.html">美食魔方</a></li>
+                             <li><a href="contact.html">联系我</a></li>
+                      </ul>
+                </div>
+    	    </div>
+		   </div>
+		</div>
+	</nav>
+	<div class="container">
+	  <div class="row">
+		<div class="sec1 fix">
+			<div class="col-xs-4 col-sm-4  col-md-3  col-lg-3 logo">
+			 <a class="navbar-brand" href="#">
+                <img alt="Brand" src="image/logo.png">
+             </a>
+            </div>
+            <div class=" hidden-xs hidden-sm col-md-4 col-lg-4 dec">欢迎访问我的
+                <i>Food House</i>说出你的使用感受
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-5 col-lg-5">
+               <form class="navbar-form-mc"role="search">
+                 <div class="input-group input-group-nav" id="search">
+                    <input type="text" class="form-control input-md" id="input-search" name="key" placeholder="搜索美食...">
+                    <span class="input-group-btn">
+                       <a role="button" class="btn">
+                         <span class="glyphicon glyphicon-search"></span>
+                      </a>
+                    </span>
+                 </div>
+               </form>
+            </div>
+		</div>
+		<div class="sec2 fix">
+		 <div class="row">
+			<div class="slider_bg hidden-xs hidden-sm fix">
+						<div class="slider">
+							<ul class="items">
+								<li>
+									<img src="image/img1.jpg" alt="">
+									<div class="banner">
+										<strong>意大利<span>细面条</span></strong>
+										<b>日菜</b>
+										<p>
+											<span>Lorem ipsum dolamet consectetur<br>
+											含有大量维生素和矿物质，有益身体健康</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<img src="image/img2.jpg" alt="">
+									<div class="banner">
+										<strong>多汁的<span>肉</span></strong>
+										<b>日菜</b>
+										<p>
+											<span>Lorem ipsum dolamet consectetur <br>肉质鲜嫩，口感爽滑
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<img src="image/img3.jpg" alt="">
+									<div class="banner">
+										<strong>法式<span>馅饼</span></strong>
+										<b>日菜</b>
+										<p>
+											<span>Lorem ipsum dolamet consectetur <br>
+											皮薄馅多，适于广泛的人群</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+			</div>
+			<div class="carousel slide hidden-md hidden-lg col-xs-12 col-sm-12 a" data-ride="carousel">
+			    <div class="carousel-inner row">
+			        <div class=" item active">
+						<a href="">
+							<img id="d" src="image/img1.jpg">
+							<div class="_covers">
+								<i class="zoom"></i>
+								<div class="_title">意大利细面条</div>
+							</div>
+						</a>
+			        </div>
+			        <div class="hidden-md hidden-lg col-xs-12 col-sm-12 item">
+			            <a href="">
+							<img id="d" src="image/img2.jpg">
+							<div class="_covers">
+								<i class="zoom"></i>
+								<div class="_title">多汁的肉</div>
+							</div>
+						</a>
+			        </div>
+			        <div class="hidden-md hidden-lg col-xs-12 col-sm-12 item">
+			            <a href="">
+							<img id="d" src="image/img3.jpg">
+							<div class="_covers">
+								<i class="zoom"></i>
+								<div class="_title">法式馅饼</div>
+							</div>
+						</a>
+			        </div>
+			    </div>
+			</div>
+		  </div>
+		</div>
+		<div class="sec3 fix">
+			<div class="title">美食魔方</div>
+			 <div id="playBox">
+	            <ul class="Ulimg">
+		            <li>
+		                <img src="image/m1.jpg">
+                         <a href="#">外酥里内的“椒盐儿体”</a>
+		            </li>
+		            <li>
+		                <img src="image/m2.jpg">
+		                <a href="#">一直“背黑锅”那些美味</a>
+		            </li>
+		            <li>
+		                <img src="image/m3.jpg">
+		                <a href="#">粗粮煲汤更营养</a>
+		            </li>
+		            <li>
+		                <img src="image/m4.jpg">
+		                <a href="#">美味酥饼，吃货不容错过</a>
+		            </li>
+		             <li>
+		                <img src="image/m5.jpg">
+		                <a href="#">学生党和上班族的减肥餐</a>
+		            </li>
+		             <li>
+		                <img src="image/m6.jpg">
+		                <a href="#">牛轧糖，记忆中的一点甜</a>
+		            </li>
+		             <li>
+		                <img src="image/m7.jpg">
+		                <a href="#">萌爆少女的糖鑫饼干</a>
+		            </li>
+		            <li>
+		                <img src="image/m8.jpg">
+		                <a href="#">饭馆点单率最高的二十道菜</a>
+		            </li>
+		            <li>
+		                <img src="image/m9.jpg">
+		                <a href="#">十分钟速成早餐-卷饼</a>
+		            </li>
+		             <li>
+		                <img src="image/m10.jpg">
+		                <a href="#">谁才是正真的肠胃清道夫？</a>
+		            </li>
+		             <li>
+		                <img src="image/m11.jpg">
+		                <a href="#">碱性食物抗衰</a>
+		            </li>
+		             <li>
+		                <img src="image/m12.jpg">
+		                <a href="#">碱性食物抗衰</a>
+		            </li>
+		             <li>
+		                <img src="image/m13.jpg">
+		                <a href="#">清新怡人味，淡淡抹茶香</a>
+		            </li>
+		             <li>
+		                <img src="image/m14.jpg">
+		                <a href="#">一分钟学会西式早餐</a>
+		            </li>
+		             <li>
+		                <img src="image/m15.jpg">
+		                <a href="#">吃货不容错过的N中酸菜鱼</a>
+		            </li>
+	            </ul>
+	         </div>
+		</div>
+		<div class="sec4 fix">
+		  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			 <div class="title">美食消息</div>
+			  <div class="contant left fix">
+				<ul>
+					<li>
+					  <a href="#">
+						<span class="s1"><img src="image/x1.jpg"></span>
+						<span class="s2">【美图】价值连城的仿出土饼干碗</span>
+					  </a>
+					</li>
+					<li>
+					   <a href="#">
+						<span class="s1"><img src="image/x2.jpg"></span>
+						<span class="s2">【烘焙】遇见你是我最美的意外</span>
+					   </a>
+					</li>
+					<li>
+					   <a href="#">
+						<span class="s1"><img src="image/x3.jpg"></span>
+						<span class="s2">【节日】六一送什么礼物给小朋友</span>
+					   </a>
+					</li>
+					<li>
+					   <a href="#">
+						<span class="s1"><img src="image/x4.jpg"></span>
+						<span class="s2">【亲子】一起动手做纸杯蛋糕</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+						<span class="s1"><img src="image/x5.jpg"></span>
+						<span class="s2">【美图】唯一小清新下午茶-桃酥</span>
+					   </a>
+					</li>
+					<li>
+					  <a href="#">
+						<span class="s1"><img src="image/x6.jpg"></span>
+						<span class="s2">【美图】520-秀恩爱的桃子夫妇</span>
+					   </a>
+					</li>
+					<li>
+					  <a href="#">
+						<span class="s1"><img src="image/x7.jpg"></span>
+						<span class="s2">【涨知识】学号烘焙第一步：选烤箱</span>
+					   </a>
+					</li>
+					<li>
+					  <a href="#">
+						<span class="s1"><img src="image/x8.jpg"></span>
+						<span class="s2">【美图】熊宝宝双胞胎一个卖萌一个卖呆</span>
+					   </a>
+					</li>
+				</ul>
+			   </div>
+			   <div class="hongpei col-xs-11 col-sm-11 col-md-12 col-lg-12 fix">
+				<ul>
+					<li>
+					  <a href="#">
+					  <a class="a"><img src="image/1.jpg"></a>
+						<span href="#">面包</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/2.jpg"></a>
+						<span href="#">饼干</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/3.jpg"></a>
+						<span href="#">蛋糕</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+						<a href=""class="a"><img src="image/4.jpg"></a>
+						<span href="#">披萨</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/5.jpg"></a>
+						<span href="#">三明治</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/7.jpg"></a>
+						<span href="#">蛋挞</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/8.jpg"></a>
+						<span href="#">马卡龙</span>
+					  </a>
+					</li>
+				</ul>
+		      </div>			
+		  </div>
+	      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 right">
+		  	<div class="title">为你推荐</div>
+		  	<div class="fix">
+		  	 	<ul>
+		  	 		<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/tui1.jpg"></a>
+						<span href="#">早餐</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/tui2.jpg"></a>
+						<span href="#">快手菜</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#">
+					  	<a class="a"><img src="image/tui3.jpg"></a>
+						<span href="#">夏季食谱</span>
+					  </a>
+					</li>
+		  	 	</ul>
+		  	 </div>
+		  	 <div class="kind fix">
+		  	 	<a href="#">家常菜</a>
+		  	 	<a href="#">汤羹</a>
+		  	 	<a href="#">泡菜腌菜</a>
+		  	 	<a href="#">红烧肉</a>
+		  	 	<a href="#">可乐鸡翅</a>
+		  	 	<a href="#">糖醋排骨</a>
+		  	 	<a href="#">酸菜鱼</a>
+		  	 	<a href="#">鱼香肉丝</a>
+		  	 	<a href="#">意大利面</a>
+		  	 	<a href="#">糖醋里脊</a>
+		  	 </div>
+		  </div>
+		  <div style="clear: both;"></div>
+		</div>
+		<div class="sec5 fix">
+			 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			    <div class="title">当季.食材</div>
+			    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+			    	<a href="#">
+			    		<img src="image/a1.jpg">
+			    		<p>西红柿</p>
+			    	</a>
+			    	<p><a href="#">芝士焗番茄</a></p>
+			    	<p><a href="#">西红柿炖牛腩</a></p>
+			    </div>
+			    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+			    	<a href="#">
+			    		<img src="image/a2.jpg">
+			    		<p>丝瓜</p>
+			    	</a>
+			    	<p><a href="#">金银蒜蒸丝瓜</a></p>
+			    	<p><a href="#">蛤蜊丝瓜汤</a></p>
+			    </div>
+			    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+			    	<a href="#">
+			    		<img src="image/a3.jpg">
+			    		<p>鸭肉</p>
+			    	</a>
+			    	<p><a href="#">爽辣啤酒鸭</a></p>
+			    	<p><a href="#">魔芋蒸鸭</a></p>
+			    </div>
+			    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+			    	<a href="#">
+			    		<img src="image/a4.jpg">
+			    		<p>西瓜</p>
+			    	</a>
+			    	<p><a href="#">西瓜柠檬因</a></p>
+			    	<p><a href="#">西瓜鱼籽粒</a></p>
+			    </div>
+			    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+			    	<a href="#">
+			    		<img src="image/a5.jpg">
+			    		<p>杏鲍菇</p>
+			    	</a>
+			    	<p><a href="#">小炒杏鲍菇</a></p>
+			    	<p><a href="#">宫爆杏鲍菇</a></p>
+			    </div>
+			    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+			    	<a href="#">
+			    		<img src="image/a6.jpg">
+			    		<p>皮皮虾</p>
+			    	</a>
+			    	<p><a href="#">椒盐皮皮虾</a></p>
+			    	<p><a href="#">蛋黄焗皮皮虾</a></p>
+			    </div>
+			 </div>
+			 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			    <div class="title">热门话题</div>
+			    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 person">
+			    	<div class="people"><img src="image/p1.jpg"></div>
+			    	<div class="log">
+			    		<h5>“#晒奖品#aca明星烘焙大赛高手如云，出乎意料的进入了半决赛，很荣幸。。从最初的菜鸟到现在可以进入半决赛，让我......”</h5>
+			    	</div>
+			    </div>
+			    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 person">
+			    	<div class="people"><img src="image/p2.jpg"></div>
+			    	<div class="log">
+			    		<h5>“#一味美食一道歌#一大早烤了一炉蘑菇小点心，哼着《采蘑菇的小姑娘》,预备...唱~采蘑菇的小姑娘背着一个大竹......”</h5>
+			    	</div>
+			    </div>
+			 </div>
+		</div>
+		<div class="sec6 fix">
+			<div class="title">推荐菜谱</div>
+			<div class="service_bd">
+                <div class="service_Box">
+                    <div class="service_scroll">
+          	            <ul>
+          		            <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b1.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">巧克力圈</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">巧克力圈</span>                 
+                                        <div class="_text">主料:糯米粉15克 高筋面粉250克 巧克力(黑)60克<br> 辅料:酵母粉3克 鸡蛋30克 调料 食盐1/4小匙 细砂糖40克 奶酪粉5克..<br>
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b6.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">华夫饼</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">华夫饼</span>                 
+                                        <div class="_text">主料:鸡蛋2个细砂糖50克食盐0.5克牛奶120毫升低筋面粉180克泡打粉1/2小勺黄油80克<br> 辅料:巧克力酱适量..
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b3.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">鸡尾酒</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">鸡尾酒</span>                 
+                                        <div class="_text">主料：西芹叶、苹果（小）、番石榴（小）<br>
+                                        辅料：柿子、桶柑（小）、市售红酒、市售柳橙汁 ..
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b4.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">糯米团</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;"> 糯米团</span>                 
+                                        <div class="_text">主料:糯米150g 猪肉150g 咸蛋黄8个 <br>辅料:盐适量 糖适量 黄酒1..                
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b5.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">芒果酪</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">芒果酪</span>                 
+                                        <div class="_text">原料: 淡奶油90克,芒果3只(中型,约220克左右一只的),砂糖适量,鱼胶粉9克,水120毫升..  
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b2.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">布朗尼</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">布朗尼</span>                 
+                                        <div class="_text">主料：黑巧克力 鸡蛋 面粉<br>
+                                           辅料：黄油 白糖 核桃仁碎 盐..
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b7.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">红烧鲤鱼</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">红烧鲤鱼</span>                 
+                                        <div class="_text">主料：鲤鱼<br>
+                                           辅料：油 鸡精 酱油 白糖 豆瓣酱 料酒 白胡椒粉 十三香 姜 蒜 香..  
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b8.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">芒果蛋糕</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">芒果蛋糕</span>                 
+                                        <div class="_text">主料：海绵蛋糕 芒果 猕猴桃<br>
+                                              辅料：原味酸奶 巧克力片..  
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b9.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">芝士蛋糕</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">芝士蛋糕</span>                 
+                                        <div class="_text">主料：奶油奶酪<br>
+                                          辅料：鸡蛋 酸奶油 糖粉 奥利奥饼干 黄油..  
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+          	                <li>
+          			            <div class="ssl">
+          				            <a href="#" class="img"><img src="image/b10.jpg"></a>
+          				            <h3 class="n" style="top: 50%;">抹茶桃酥</h3>
+          				            <a href="#">
+          					          <div class="cover" style="top: 100%;">
+                                        <span class="_n" style="font-weight: bold;">抹茶桃酥</span>                 
+                                        <div class="_text">主料：黄油 低筋面粉<br>
+                                           辅料：冰糖 水 食盐 料酒 辣椒粉 十三香 菜籽油 水 花生油 五香粉..  
+                                       </div>
+                                      </div>
+                                    </a>
+                                </div>
+          	                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+		</div>
+	  </div>
+	</div>
+	<footer>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<h4>关于美食</h4>
+				<ul>
+					<li>加入我们</li>
+					<li>联系我们</li>
+					<li>网站地图</li>
+					<li>帮助/反馈</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<h4>菜谱大全</h4>
+				<ul class="ul">
+	  		       <li><a href="#"target="_blank">千道家常菜</a></li>
+                   <li><a href="#" target="_blank">所有分类</a></li>           
+                   <li><a href="#" target="_blank">热菜</a></li>
+                   <li><a href="#" target="_blank">凉菜 </a></li>
+                   <li><a href="#" target="_blank">汤羹</a></li>
+                   <li><a href="#" target="_blank">小吃</a></li>
+                   <li><a href="#" target="_blank">儿童菜</a></li>
+                   <li><a href="#" target="_blank">开胃菜</a></li>
+                   <li><a href="#" target="_blank">自制食材</a></li>
+                   <li><a href="#" target="_blank">泡酱腌菜</a></li>
+		        </ul>
+	    	</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<h4>时下最热</h4>
+				<ul class="ul">  
+                    <li><a href="#"target="_blank">荠菜</a></li>
+                    <li><a href="#"target="_blank">火腿风情</a></li>
+                    <li><a href="#"target="_blank">美食电影</a></li>
+
+                   <li><a href="#"target="_blank">菠菜</a></li>
+                   <li><a href="#"target="_blank">春季增高</a></li>
+                   <li><a href="#"target="_blank">吃出好气色</a></li>
+
+                   <li><a href="#"target="_blank">豆腐</a></li>
+                   <li><a href="#"target="_blank">吸烟必吃</a></li>
+                   <li><a href="#"target="_blank">菌"临天下</a></li>
+
+                   <li><a href="#"target="_blank">鸡蛋</a></li>
+                   <li><a href="#"target="_blank">减肥狂潮</a></li>
+                   <li><a href="#"target="_blank">排毒宝典</a></li>
+
+                   <li><a href="#"target="_blank">韭菜</a></li>
+                   <li><a href="#"target="_blank">打卤馕记</a></li>
+                   <li><a href="#"target="_blank">苹果婊</a></li>
+                </ul>
+			</div>
+		</div>
+	</footer>
+	 <script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/tms-0.3.js"></script>
+    <script type="text/javascript" src="js/tms_presets.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript"src="js/lunbo.js"></script>
+  	<script type="text/javascript"src="js/service.js"></script>
+  	<script type="text/javascript" src="js/bg.js"></script>
+</body>
+</html>

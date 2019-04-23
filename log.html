@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>美食日志</title>
+	<link rel="stylesheet" type="text/css" href="libCss/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+    <script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/log.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+		   <div class="row">
+		   	<div class="hidden-xs col-md-8 col-lg-8">
+    		   <div id="navbar" class="navbar-collapse collapse">
+    		    <ul class="nav navbar-nav pull-left">
+    			    <li><a href="index.html">美食天下</a></li>
+                   <li><a href="caipu.html">菜谱</a></li>
+                   <li><a href="log.html">美食日志</a></li>
+                   <li><a href="book.html">预定美食</a></li>
+                   <li><a href="mofang.html">美食魔方</a></li>
+                   <li><a href="contact.html">联系我</a></li>               
+    			</ul>
+    		   </div>
+    	    </div>
+    	    <div class="reg col-xs-6 col-md-4 col-lg-4">
+    	    	 <a href="#">注册</a>
+                <a href="#">登录</a>
+    	    </div>
+    	    <div class="visible-xs-block col-xs-6">
+    	        <div class="nav nav-hamburger pull-right">
+                       <a href="#ham" class="dropdown-toggle" data-toggle="dropdown"   role="button" aria-haspopup="true" aria-expanded="false">
+                         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                      </a>
+                      <ul class="dropdown-menu pull-right">
+                             <li><a href="index.html">美食天下</a></li>
+                             <li><a href="caipu.html">菜谱</a></li>
+                             <li><a href="log.html">美食日志</a></li>
+                             <li><a href="book.html">预定美食</a></li>
+                             <li><a href="mofang.html">美食魔方</a></li>
+                             <li><a href="contact.html">联系我</a></li>
+                      </ul>
+                </div>
+    	    </div>
+		   </div>
+		</div>
+	</nav>
+	<div class="container">
+        <div class="row">
+            <div class="sec1 fix">
+                <div class="col-xs-4 col-sm-4  col-md-5  col-lg-5 logo">
+                    <a class="navbar-brand" href="#">
+                      <img alt="Brand" src="image/rz.png">
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-7  col-lg-7 forms">
+                    <form class="navbar-form-mc"role="search">
+                      <div class="input-group input-group-nav" id="search">
+                        <input type="text" class="form-control input-md" id="input-search" name="key" placeholder="搜索美食...">
+                        <span class="input-group-btn">
+                           <a role="button" class="btn">
+                             <span class="glyphicon glyphicon-search"></span>
+                          </a>
+                        </span>
+                      </div>
+                    </form>
+                </div>
+            </div>
+            <div class="sec2 fix">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 log">
+                    <a href="">
+                        <img src="image/topic1.jpg">
+                        <div class="title"></div>
+                        <span class="sp">秋葵，风靡全球</span>                  
+                        <p>秋葵含有特殊的具有药效的成分，能强肾补虚，对男性器质性疾病有辅助治疗作用，是一种不可多得的保健蔬菜，享有“植物伟哥”之美誉！</p>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 log">
+                    <a href="" >
+                        <img src="image/topic2.jpg">
+                        <div class="title"></div>
+                        <span class="sp">冬天里的那一碗热汤面</span>
+                        <p>冬天的气候越来越冷，每晚回家后总是被冻的手脚冰凉，这时候来一碗热汤面，一定是个不错的选择！热汤有助提高体温，在冬季还能强健肠胃。</p>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 log">
+                    <a href="">
+                        <img src="image/topic3.jpg">
+                        <div class="title"></div>
+                        <span class="sp">冬日自制佐冬小菜</span>
+                        <p>冬日清晨，要是有一碗热粥，既暖身又暖心。热气腾腾的粥配上香滑的爽口小菜，绝对能尝出幸福的滋味！</p>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 log">
+                    <a href="">
+                        <img src="image/topic4.jpg">
+                        <div class="title"></div>
+                        <span class="sp">冬季护肤“扫黄”美白</span>
+                        <p>冬日新陈代谢减慢，皮肤容易堆积废物，长久下来，肌肤又暗又黄，失去光彩，扫“黄”成为首要任务！</p>
+                    </a>
+                </div>
+            </div>
+            <div class="sec3 fix">
+               <div class="row">
+                  <div class="col-xs-12 col-xs-12 col-md-8 col-lg-8 zhuanti">
+                      <h3>最新专题</h3>
+                      <ul>
+                        <li class="fix">
+                            <div class="img"><img src="image/t1.jpg"></div>
+                            <div class="des">
+                              <div class="t">2015年夜饭大汇聚</div>
+                              <div class="con">除夕夜临近，年夜饭吃什么不仅是寻常百姓在思考的问题，也是各大酒楼餐厅在琢磨的问题。<br>那么2015年年夜饭吃什么好呢?<br>下面就跟着小美去看看美食天下年夜饭菜谱大汇聚中的奥秘吧，或许会有意想不到的收获哦。</div>
+                            </div>
+                        </li>                       
+                         <li class="fix">
+                            <div class="img"><img src="image/t2.jpg"></div>
+                            <div class="des">
+                              <div class="t">节后清肠，解腻当先</div>
+                              <div class="con">节日里东西吃多了,就会容易积累毒素。人体毒素多时脸上、身上都会起痘痘,甚至脸色泛黄,严重时更会导致身体浮肿虚胖、小腹凸出。因此,节后减肥,清肠是第一位...</div>
+                            </div>
+                        </li>
+                         <li class="fix">
+                            <div class="img"><img src="image/t3.jpg"></div>
+                            <div class="des">
+                              <div class="t">宴客美食，盛情元旦</div>
+                              <div class="con">元旦假期就快要到了,亲戚朋友都会来串门,元旦吃什么?你还在为准备哪些美味佳肴而伤脑筋吗?下面小编就给大家介绍元旦家常宴客菜,让你到时候不慌不忙,大展拳脚...</div>
+                            </div>
+                        </li>
+                        <li class="fix">
+                            <div class="img"><img src="image/t4.jpg"></div>
+                            <div class="des">
+                              <div class="t">随《一步之遥》领略上海美食</div>
+                              <div class="con">随着《一步之遥》的热映，姜文、舒淇、周韵等人着实又火了一次，在此时独具特色的上海美食再次浮出水面，今天随着小编一起感受一番吧</div>
+                            </div>
+                        </li> 
+                        <li class="fix">
+                            <div class="img"><img src="image/t5.jpg"></div>
+                            <div class="des">
+                              <div class="t">一日食三枣，终身不显老</div>
+                              <div class="con">元旦假期就快要到了,亲戚朋友都会来串门,元旦吃什么?你还在为准备哪些美味佳肴而伤脑筋吗?下面小编就给大家介绍元旦家常宴客菜,让你到时候不慌不忙,大展拳脚...</div>
+                            </div>
+                        </li>
+                         <li class="fix">
+                            <div class="img"><img src="image/t6.jpg"></div>
+                            <div class="des">
+                              <div class="t">一个杯子搞定的早餐</div>
+                              <div class="con">浅行在阳光明媚的早晨,一个杯子里盛一份蛋糕或热饮,一颗素心,一丝微笑,一份心情,一种认真,一念致诚,一抹慈悲,一缕淡泊就是一种幸福</div>
+                            </div>
+                        </li>
+                         <li class="fix">
+                            <div class="img"><img src="image/t7.jpg"></div>
+                            <div class="des">
+                              <div class="t">圣诞狂欢夜，美味享不停</div>
+                              <div class="con">圣诞狂欢夜，美味享不停！让美食与我们共庆这喜庆的节日，让幸福充满欢乐的时光</div>
+                            </div>
+                        </li>
+                         <li class="fix">
+                            <div class="img"><img src="image/t8.jpg"></div>
+                            <div class="des">
+                              <div class="t">过儿，姑姑喊你回家吃包子</div>
+                              <div class="con">新神雕的“小笼包”已经上映了，杨过你这是有多饿啊！小美已经帮小龙女备好丰盛大餐，就等你回家了!</div>
+                            </div>
+                        </li>
+                         <li class="fix">
+                            <div class="img"><img src="image/t9.jpg"></div>
+                            <div class="des">
+                              <div class="t">干锅菜，持续加热的幸福</div>
+                              <div class="con">干锅菜是近年来较为流行的一种菜式。相对于火锅而得名。火锅汤汁很多，以适应涮烫各种原料；而干锅菜汤汁相对较少，一般作为菜品直接上桌食用，它最先是在湖南、湖北、江西一带流行，后被川厨引进并提升，形成了系列</div>
+                            </div>
+                        </li>
+                         <li class="fix">
+                            <div class="img"><img src="image/t10.jpg"></div>
+                            <div class="des">
+                              <div class="t">冬至品香饺，团圆又一年</div>
+                              <div class="con">每年农历冬至这天，在北方不论贫富，饺子是必不可少的节日饭。谚云：“十月一，冬至到，家家户户吃水饺。而南方则是选择“汤圆”这种象征团圆美满的食物。今年冬至，您选了什么？</div>
+                            </div>
+                        </li>
+                      </ul>
+                  </div>
+                  <div id="huo" class="col-xs-12 col-xs-12 col-md-4 col-lg-4 active">
+                      <h3>活动进行中</h3>
+                      <ul>
+                         <li class="fix">
+                            <div class="left"><img src="image/ac1.jpg"></div>
+                            <div class="right">
+                               <div class="contant">[菜谱征集]ACA第三届烘焙明星大赛</div>
+                               <div class="play"><a href="">立即参与</a></div>
+                            </div>
+                         </li>
+                         <li class="fix">
+                            <div class="left"><img src="image/ac2.jpg"></div>
+                            <div class="right">
+                               <div class="contant">[免费抽奖]ACA精美硅胶模具</div>
+                               <div class="play"><a href="">立即参与</a></div>
+                            </div>
+                         </li>
+                         <li class="fix">
+                            <div class="left"><img src="image/ac3.jpg"></div>
+                            <div class="right">
+                               <div class="contant">[免费抽奖]ACA无门槛消费券</div>
+                               <div class="play"><a href="">立即参与</a></div>
+                            </div>
+                         </li>
+                      </ul>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </div>
+     <footer>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4>关于美食</h4>
+                <ul>
+                    <li>加入我们</li>
+                    <li>联系我们</li>
+                    <li>网站地图</li>
+                    <li>帮助/反馈</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4>菜谱大全</h4>
+                <ul class="ul">
+                   <li><a href="#"target="_blank">千道家常菜</a></li>
+                   <li><a href="#" target="_blank">所有分类</a></li>           
+                   <li><a href="#" target="_blank">热菜</a></li>
+                   <li><a href="#" target="_blank">凉菜 </a></li>
+                   <li><a href="#" target="_blank">汤羹</a></li>
+                   <li><a href="#" target="_blank">小吃</a></li>
+                   <li><a href="#" target="_blank">儿童菜</a></li>
+                   <li><a href="#" target="_blank">开胃菜</a></li>
+                   <li><a href="#" target="_blank">自制食材</a></li>
+                   <li><a href="#" target="_blank">泡酱腌菜</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4>时下最热</h4>
+                <ul class="ul">  
+                    <li><a href="#"target="_blank">荠菜</a></li>
+                    <li><a href="#"target="_blank">火腿风情</a></li>
+                    <li><a href="#"target="_blank">美食电影</a></li>
+
+                   <li><a href="#"target="_blank">菠菜</a></li>
+                   <li><a href="#"target="_blank">春季增高</a></li>
+                   <li><a href="#"target="_blank">吃出好气色</a></li>
+
+                   <li><a href="#"target="_blank">豆腐</a></li>
+                   <li><a href="#"target="_blank">吸烟必吃</a></li>
+                   <li><a href="#"target="_blank">"菌"临天下</a></li>
+
+                   <li><a href="#"target="_blank">鸡蛋</a></li>
+                   <li><a href="#"target="_blank">减肥狂潮</a></li>
+                   <li><a href="#"target="_blank">排毒宝典</a></li>
+
+                   <li><a href="#"target="_blank">韭菜</a></li>
+                   <li><a href="#"target="_blank">打边炉</a></li>
+                   <li><a href="#"target="_blank">苹果派</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script type="text/javascript">
+   $(function(){
+      $('.log').mouseover(function(){
+          var i=$(this).index();
+           $('.title').eq(i).hide();
+           $('.sp').eq(i).hide();
+           $('.log p').eq(i).show();
+      });
+      $('.log').mouseout(function(){
+          var i=$(this).index();
+           $('.title').eq(i).show();
+           $('.sp').eq(i).show();
+           $('.log p').eq(i).hide();
+      });
+      $(window).scroll(function(){
+        var y=$(document).scrollTop();
+        if (y>800 && y<1800) {
+            $('#huo').addClass('hh');
+        }
+        else{
+          $('#huo').removeClass('hh');
+        }
+      });
+   })
+</script>
+<script type="text/javascript"src="js/log.js"></script>

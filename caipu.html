@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>菜谱</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="libCss/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/caipu.css">
+	<script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/cooker.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+		   <div class="row">
+		   	<div class="hidden-xs col-md-8 col-lg-8">
+    		   <div id="navbar" class="navbar-collapse collapse">
+    		    <ul class="nav navbar-nav pull-left">
+    			    <li><a href="index.html">美食天下</a></li>
+                   <li><a href="caipu.html">菜谱</a></li>
+                   <li><a href="log.html">美食日志</a></li>
+                   <li><a href="book.html">预定美食</a></li>
+                   <li><a href="mofang.html">美食魔方</a></li>
+                   <li><a href="contact.html">联系我</a></li>               
+    			</ul>
+    		   </div>
+    	    </div>
+    	    <div class="reg col-xs-6 col-md-4 col-lg-4">
+    	    	 <a href="#">注册</a>
+                <a href="#">登录</a>
+    	    </div>
+    	    <div class="visible-xs-block col-xs-6">
+    	        <div class="nav nav-hamburger pull-right">
+                       <a href="#ham" class="dropdown-toggle" data-toggle="dropdown"   role="button" aria-haspopup="true" aria-expanded="false">
+                         <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                      </a>
+                      <ul class="dropdown-menu pull-right">
+                             <li><a href="index.html">美食天下</a></li>
+                             <li><a href="caipu.html">菜谱</a></li>
+                             <li><a href="log.html">美食日志</a></li>
+                             <li><a href="book.html">预定美食</a></li>
+                             <li><a href="mofang.html">美食魔方</a></li>
+                             <li><a href="contact.html">联系我</a></li>
+                      </ul>
+                </div>
+    	    </div>
+		   </div>
+		</div>
+	</nav>
+	<div class="container">
+	    <div class="row">
+		    <div class="sec1 fix">
+			    <div class="col-xs-4 col-sm-4  col-md-3  col-lg-3 logo">
+			        <a class="navbar-brand" href="#">
+                      <img alt="Brand" src="image/caipu.png">
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-9  col-lg-9 cate">
+			        <a href="#">菜谱分类</a>
+			        <a href="#cooker">厨师介绍</a>
+                </div>
+		    </div>
+		    <div class="sec2 fix">
+		        <div class="row fix">		
+		    	  <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+		    	    <h4>常见菜式</h4>
+		    		<ul>
+	                     <li><a href="#">凉菜</a></li>
+                         <li><a href="#">热菜</a></li>
+                         <li><a href="#">荤菜</a></li>
+                         <li><a href="#">苏菜</a></li>
+                         <li><a href="#">开胃菜</a></li>
+                         <li><a href="#">家常菜</a></li>
+                         <li><a href="#">私房菜</a></li>
+                         <li><a href="#">汤羹</a></li>
+                         <li><a href="#">小吃</a></li>
+                    </ul>
+		    	  </div>
+		    	  <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+		    		<h4>常见主食</h4>
+		    		<ul>
+	                     <li><a href="#">米饭</a></li>
+                         <li><a href="#">炒饭</a></li>
+                         <li><a href="#">包子</a></li>
+                         <li><a href="#">饺子</a></li>
+                         <li><a href="#">馒头</a></li>
+                         <li><a href="#">面条</a></li>
+                         <li><a href="#">饼</a></li>
+                         <li><a href="#">粥</a></li>
+                    </ul>
+		    	  </div>
+		    	  <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+		    		<h4>人群与健康</h4>
+		    		<ul>
+	                     <li><a href="#">孕妇</a></li>
+                         <li><a href="#">产妇</a></li>
+                         <li><a href="#">儿童</a></li>
+                         <li><a href="#">老人</a></li>
+                         <li><a href="#">养生菜</a></li>
+                         <li><a href="#">美容</a></li>
+                         <li><a href="#">减肥</a></li>
+                         <li><a href="#">便秘</a></li>
+                         <li><a href="#">贫血</a></li>
+                    </ul>
+		    	  </div>
+		    	  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+		    		<h4>中西菜式</h4>
+		    		<ul>
+	                     <li><a href="#">川菜</a></li>
+                         <li><a href="#">鲁菜</a></li>
+                         <li><a href="#">闽菜</a></li>
+                         <li><a href="#">苏菜</a></li>
+                         <li><a href="#">粤菜</a></li>
+                         <li><a href="#">湘常菜</a></li>
+                         <li><a href="#">日料</a></li>
+                         <li><a href="#">韩国料理</a></li>
+                         <li><a href="#">法国菜</a></li>
+                    </ul>
+		    	  </div>
+		    	  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+		    		<h4>烘焙</h4>
+		    		<ul class="a">
+	                     <li><a href="#">面包</a></li>
+                         <li><a href="#">蛋糕</a></li>
+                         <li><a href="#">派塔</a></li>
+                         <li><a href="#">吐司</a></li>
+                         <li><a href="#">披萨</a></li>
+                         <li><a href="#">慕斯</a></li>
+                         <li><a href="#">饼干</a></li>
+                         <li><a href="#">曲奇</a></li>
+                         <li><a href="#">布丁</a></li>
+                    </ul>
+		    	  </div>
+		        </div>
+		        <div id="lun" class="fix">
+                <div class="hidden-xs hidden-sm col-md-4 col-lg-4">
+		           <div class="bs-example" data-example-id="carousel-with-captions">
+                 <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="image/c1.jpg">
+                            <div class="carousel-caption">
+                                <h3>番茄炖牛腩</h3>
+                                <p>利于人体消化吸收,帮助消化、调整胃肠功能的作用.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c2.jpg" >
+                            <div class="carousel-caption">
+                                <h3>鸡蛋蔬菜饼</h3>
+                                <p>富含蛋白质，易消化.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  src="image/c3.jpg">
+                            <div class="carousel-caption">
+                                <h3>酱香猪蹄</h3>
+                                <p>色泽好看，油而不腻.</p>
+                            </div>
+                        </div>
+                    </div>             
+                  </div>
+                   </div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-4 col-lg-4">
+		           <div class="bs-example" data-example-id="carousel-with-captions">
+                 <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="image/c4.jpg">
+                            <div class="carousel-caption">
+                                <h3>芒果慕斯蛋糕</h3>
+                                <p>炎热的夏季，入口即化、冰冰凉凉</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c5.jpg" >
+                            <div class="carousel-caption">
+                                <h3>蜂蜜蛋糕</h3>
+                                <p>除了美容之外，蜂蜜还有抗菌消炎、促进组织再生</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  src="image/c6.jpg">
+                            <div class="carousel-caption">
+                                <h3>香葱酱油拌面</h3>
+                                <p>简简单单的一道懒人餐，补充蛋白质</p>
+                            </div>
+                        </div>
+                    </div>                   
+                  </div>
+                   </div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-4 col-lg-4">
+		           <div class="bs-example" data-example-id="carousel-with-captions">
+                 <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="image/c7.jpg">
+                            <div class="carousel-caption">
+                                <h3>香煎南瓜饼</h3>
+                                <p>外酥里糯，味道棒棒哒！</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c8.jpg" >
+                            <div class="carousel-caption">
+                                <h3>香菇酱拌面</h3>
+                                <p>几根青菜、一个煮蛋，也可以让营养更多地摄取到</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  src="image/c9.jpg">
+                            <div class="carousel-caption">
+                                <h3>酱烧鱿鱼须</h3>
+                                <p>养胃健胃、补血养血、补气益气、调理肠胃、增强记忆力</p>
+                            </div>
+                        </div>
+                    </div>                   
+                  </div>
+                   </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 hidden-md hidden-lg phone">
+                  <div class="bs-example" data-example-id="carousel-with-captions">
+                    <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="3" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="4" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="5" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="6" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="7" class=""></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="8" class=""></li>
+                      </ol>
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="image/c1.jpg">
+                            <div class="carousel-caption">
+                                <h3>番茄炖牛腩</h3>
+                                <p>利于人体消化吸收,帮助消化、调整胃肠功能的作用.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c2.jpg" >
+                            <div class="carousel-caption">
+                                <h3>鸡蛋蔬菜饼</h3>
+                                <p>富含蛋白质，易消化.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  src="image/c3.jpg">
+                            <div class="carousel-caption">
+                                <h3>酱香猪蹄</h3>
+                                <p>色泽好看，油而不腻.</p>
+                            </div>
+                        </div>
+                         <div class="item">
+                            <img src="image/c4.jpg">
+                            <div class="carousel-caption">
+                                <h3>芒果慕斯蛋糕</h3>
+                                <p>炎热的夏季，入口即化、冰冰凉凉</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c5.jpg" >
+                            <div class="carousel-caption">
+                                <h3>蜂蜜蛋糕</h3>
+                                <p>除了美容之外，蜂蜜还有抗菌消炎、促进组织再生</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  src="image/c6.jpg">
+                            <div class="carousel-caption">
+                                <h3>香葱酱油拌面</h3>
+                                <p>简简单单的一道懒人餐，补充蛋白质</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c7.jpg">
+                            <div class="carousel-caption">
+                                <h3>香煎南瓜饼</h3>
+                                <p>外酥里糯，味道棒棒哒！</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/c8.jpg" >
+                            <div class="carousel-caption">
+                                <h3>香菇酱拌面</h3>
+                                <p>几根青菜、一个煮蛋，也可以让营养更多地摄取到</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img  src="image/c9.jpg">
+                            <div class="carousel-caption">
+                                <h3>酱烧鱿鱼须</h3>
+                                <p>养胃健胃、补血养血、补气益气、调理肠胃、增强记忆力</p>
+                            </div>
+                        </div>
+                      </div>             
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div id="cooker" class="hidden-xs hidden-sm fix">
+                    <div class="des"><h3>顶级厨师</h3></div>
+                    <div class="cookers">
+                        <a href="" class="img img01">
+                            <img src="image/cooker1.jpg">
+                        </a>
+                         <a href="" class="img img02">
+                            <img src="image/cooker2.jpg">
+                        </a>
+                         <a href="" class="img img03">
+                            <img src="image/cooker3.jpg">
+                        </a>
+                         <a href="" class="img img04">
+                            <img src="image/cooker4.jpg">
+                        </a>
+                         <a href="" class="img img05">
+                            <img src="image/cooker5.jpg">
+                        </a>
+                         <a href="" class="img img06">
+                            <img src="image/cooker6.jpg">
+                        </a>
+                         <a href="" class="img img07">
+                            <img src="image/cooker7.jpg">
+                        </a>
+                    </div>
+                    <div class="big">
+                        <a href="#">
+                            <div class="bigs img001">
+                               <img src="image/cooker1.jpg">
+                               <p>前费尔蒙和平饭店行政总厨，2012年东方卫视人气节目《顶级厨师》美食评审。江苏卫视国内首档明星美食竞技真人秀节目《星厨驾到》美食评审，凤凰卫视《斗味》美食评审《行者》外景。</p>
+                            </div>
+                            <div class="bigs img002">
+                               <img src="image/cooker2.jpg">
+                               <p>王义均，元老级注册中国烹饪大师[1]  ，北京市特一级烹调师。山东省烟台市人，出生于1933年4月。1983年在全国烹饪名师技术表演鉴定会上获“最佳厨师”称号。</p>
+                            </div>
+                             <div class="bigs img003">
+                               <img src="image/cooker3.jpg">
+                               <p>龙伟彦现任中国大酒店行政总厨、华南地区五星级酒店的首位中国人西餐总厨。曾获亚洲餐饮业杰出青年才俊奖，2005年"全国劳动模范"的光荣称号等</p>
+                            </div>
+                            <div class="bigs img004">
+                               <img src="image/cooker4.jpg">
+                               <p>张正东出生于烹饪世家，自幼学艺，擅长淮扬菜。现任上海东耀餐饮管理有限公司法人代表，同时担任在北京分公司二十余家宾馆、饭店的行政总厨兼餐饮总监。</p>
+                            </div>
+                            <div class="bigs img005">
+                               <img src="image/cooker5.jpg">
+                               <p>戈登·拉姆齐（GordonRamsay），出生于格拉斯哥，堪称英国乃至世界的顶级厨神，因其在各种名人烹饪节目的粗鲁与严格，以及追求完美的风格，而被媒体称为“地狱厨师”。</p>
+                            </div>
+                            <div class="bigs img006">
+                               <img src="image/cooker6.jpg">
+                               <p>陈岚舒,毕业后即赴法国学习厨艺四年，在巴黎斐杭迪高等厨艺学校以第一名毕业，并考取法国厨师证照。唯一以法式料理获得罗莱夏朵明星主厨头衔的亚洲女性</p>
+                            </div>
+                            <div class="bigs img007">
+                               <img src="image/cooker7.jpg">
+                               <p>梁子庚，现为新加坡籍中餐名厨，被誉为全亚洲最年轻的创意型厨师,2003年移居到中国开始创立他自己的餐饮事业。在2000年，梁子庚先生荣获美国餐饮管理学院颁发的 “五星钻石国际大奖 ”</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden-md hidden-lg p_cooker fix">
+                    <h3>顶级厨师</h3>
+                    <div id="local">
+                         <img id="im" src="image/cooker1.jpg">
+                         <p class="p p1">前费尔蒙和平饭店行政总厨，2012年东方卫视人气节目《顶级厨师》美食评审。江苏卫视国内首档明星美食竞技真人秀节目《星厨驾到》美食评审，凤凰卫视《斗味》美食评审《行者》外景。</p>
+                         <p class="p p2">王义均，元老级注册中国烹饪大师[1]  ，北京市特一级烹调师。山东省烟台市人，出生于1933年4月。1983年在全国烹饪名师技术表演鉴定会上获“最佳厨师”称号。</p>
+                         <p class="p p3">龙伟彦现任中国大酒店行政总厨、华南地区五星级酒店的首位中国人西餐总厨。曾获亚洲餐饮业杰出青年才俊奖，2005年"全国劳动模范"的光荣称号等</p>
+                         <p class="p p4">戈登·拉姆齐（GordonRamsay），出生于格拉斯哥，堪称英国乃至世界的顶级厨神，因其在各种名人烹饪节目的粗鲁与严格，以及追求完美的风格，而被媒体称为“地狱厨师”。</p>
+                        <p class="p p5">戈登·拉姆齐（GordonRamsay），出生于格拉斯哥，堪称英国乃至世界的顶级厨神，因其在各种名人烹饪节目的粗鲁与严格，以及追求完美的风格，而被媒体称为“地狱厨师”。</p>
+                        <p class="p p6">陈岚舒,毕业后即赴法国学习厨艺四年，在巴黎斐杭迪高等厨艺学校以第一名毕业，并考取法国厨师证照。唯一以法式料理获得罗莱夏朵明星主厨头衔的亚洲女性</p>
+                        <p class="p p7">梁子庚，现为新加坡籍中餐名厨，被誉为全亚洲最年轻的创意型厨师,2003年移居到中国开始创立他自己的餐饮事业。在2000年，梁子庚先生荣获美国餐饮管理学院颁发的 “五星钻石国际大奖 ”</p>
+                    </div>
+                    <div id="image">
+                        <img src="image/cooker1.jpg">
+                        <img src="image/cooker2.jpg">
+                        <img src="image/cooker3.jpg">
+                        <img src="image/cooker4.jpg">
+                        <img src="image/cooker5.jpg">
+                        <img src="image/cooker6.jpg">
+                        <img src="image/cooker7.jpg">
+                    </div>
+                </div>
+		    </div>
+	    </div>
+	</div>
+    <footer>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4>关于美食</h4>
+                <ul>
+                    <li>加入我们</li>
+                    <li>联系我们</li>
+                    <li>网站地图</li>
+                    <li>帮助/反馈</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4>菜谱大全</h4>
+                <ul class="ul">
+                   <li><a href="#"target="_blank">千道家常菜</a></li>
+                   <li><a href="#" target="_blank">所有分类</a></li>           
+                   <li><a href="#" target="_blank">热菜</a></li>
+                   <li><a href="#" target="_blank">凉菜 </a></li>
+                   <li><a href="#" target="_blank">汤羹</a></li>
+                   <li><a href="#" target="_blank">小吃</a></li>
+                   <li><a href="#" target="_blank">儿童菜</a></li>
+                   <li><a href="#" target="_blank">开胃菜</a></li>
+                   <li><a href="#" target="_blank">自制食材</a></li>
+                   <li><a href="#" target="_blank">泡酱腌菜</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4>时下最热</h4>
+                <ul class="ul">  
+                    <li><a href="#"target="_blank">荠菜</a></li>
+                    <li><a href="#"target="_blank">火腿风情</a></li>
+                    <li><a href="#"target="_blank">美食电影</a></li>
+
+                   <li><a href="#"target="_blank">菠菜</a></li>
+                   <li><a href="#"target="_blank">春季增高</a></li>
+                   <li><a href="#"target="_blank">吃出好气色</a></li>
+
+                   <li><a href="#"target="_blank">豆腐</a></li>
+                   <li><a href="#"target="_blank">吸烟必吃</a></li>
+                   <li><a href="#"target="_blank">菌"临天下</a></li>
+
+                   <li><a href="#"target="_blank">鸡蛋</a></li>
+                   <li><a href="#"target="_blank">减肥狂潮</a></li>
+                   <li><a href="#"target="_blank">排毒宝典</a></li>
+
+                   <li><a href="#"target="_blank">韭菜</a></li>
+                   <li><a href="#"target="_blank">打边炉</a></li>
+                   <li><a href="#"target="_blank">苹果派</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+        <script type="text/javascript">
+       $(function(){
+        $('.p:gt(0)').hide();
+          $('#image img').mouseover(
+              function(i){
+                 var i=$(this).index()+1;
+                $('#im').attr('src','image/cooker'+i+'.jpg');
+                 $('.p').hide();
+                $('.p').eq(i-1).show();
+              }
+            );
+           $('#image img').mouseout(
+              function(){
+                $('#im').attr('src','image/cooker1.jpg');
+              }
+            );
+       });
+    </script>
+    <script type="text/javascript"src="js/caipubg.js"></script>
+</body>
+</html>
