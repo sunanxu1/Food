@@ -1,0 +1,85 @@
+@charset 'utf-8';
+body {
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    min-width: 320px;
+}
+*{margin:0px;padding: 0px}
+nav{
+	width: 100%;
+}
+.fix{
+	clear: both;
+	content: "";
+	display: block;
+}
+.navbar-default {
+    border-color:#ccc;
+}
+.navbar{
+	background-color: rgba(0,0,0,.6);
+}
+
+#navbar ul li a{
+	color: #fff;
+	font-size: 18px;
+	font-family:'Microsoft YaHei';
+}
+.reg{
+	margin-top: 1%;
+}
+.reg a{
+	width: 50px;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+
+}
+.glyphicon-menu-hamburger{
+	color: #fff;
+	font-size: 20px;
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.dropdown-menu li{
+	border-left: 3px solid #7D7D7D;
+	margin-bottom: 2px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 5px;
+}
+.dropdown-menu li.font{
+     border-left: 13px solid #88c5e1;
+     transition: all 0.5 ease;
+}
+.dropdown-menu li a:hover{
+	color: #88c5e1;
+	text-decoration:underline;
+}
+footer{
+	margin:0;
+    width:98%;
+    background:url(../image/bo.jpg); 
+    padding-left: 10%;
+}
+footer ul{
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+footer li{
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+}
+footer li a{
+    color: #333;
+}
+.ul li{
+     
+    float: left;
+}
+h4{
+    font-weight: bold;
+}

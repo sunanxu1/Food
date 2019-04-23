@@ -1,0 +1,210 @@
+@charset 'utf-8';
+body {
+    background-color: #FAF3ED;
+}
+
+.fix {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #333;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+}
+
+.nav2 {
+    position: relative;
+    top: 60px;
+}
+
+.box img {
+    width: 100%;
+    height: 120px;
+}
+
+.text {
+    width: 400px;
+    overflow: hidden;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sec1 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #999;
+}
+
+.fonts {
+    margin-top: 10px;
+}
+
+.fonts h3 {
+    color: #E29029;
+    text-shadow: 10px 10px 5px #716F6F;
+}
+
+.sec1 .des {
+    margin-top: 25px;
+}
+
+.sec1 .des a {
+    font-size: 18px;
+    color: #999;
+}
+
+.sec2 {
+    margin-top: 2%;
+}
+
+.sec2 ul li {
+    margin-top: 30px;
+}
+
+.sec2 img {
+    border: 1px solid #cccccc;
+    height: 277px;
+}
+
+.sec2 a {
+    color: #ffba01;
+}
+
+.sec2 .name {
+    border: 1px solid #cccccc;
+    text-align: center;
+    color: #333;
+    border-bottom: none;
+}
+
+.sec2 .xq {
+    border: 1px solid #cccccc;
+    text-align: center;
+    color: #333;
+    border-bottom: none;
+}
+
+.sec2 h4 {
+    position: fixed;
+    left: 3%;
+    top: 40%;
+    z-index: 20
+}
+
+.sec2 h4 a {
+    display: block;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid green;
+    background-color: #ccc;
+}
+
+.sec2 .yd {
+    border: 1px solid #cccccc;
+    text-align: center;
+    color: #333;
+}
+
+.sec2 a:hover {
+    color: red;
+}
+
+.page {
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+.car {
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.car .tools {
+    width: 35px;
+    height: 100%;
+    background: #000;
+    border-top: 1px solid #000;
+    position: absolute;
+    left: 0px;
+}
+
+.car .tools a {
+    display: block;
+    width: 15px;
+    height: 70px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: " Î¢ÈíÑÅºÚ ";
+    padding: 30px 10px 0px;
+    background: url("../image/car.png") no-repeat;
+    margin-top: 300px;
+}
+
+
+
+.car .carBox {
+    width: 225px;
+    height: 100%;
+    background: #ddd;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.car .carBox dl {
+    height: 60px;
+    border-bottom: 1px dotted #fff;
+    padding: 10px 10px;
+}
+
+.car .carBox dl dt {
+    width: 60px;
+    float: left;
+}
+
+.car .carBox dl dd {
+    font-size: 12px;
+    float: right;
+    line-height: 20px;
+    width: 140px;
+}
+
+.car .carBox dl dd a {
+    color: #666;
+    text-decoration: none;
+}
+
+.car .carBox dl dd.price {
+    color: red;
+    font-size: 14px;
+}
+
+.fly {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}

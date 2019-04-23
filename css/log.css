@@ -1,0 +1,135 @@
+@charset 'utf-8';
+body{
+	  background: url(../image/bb2.jpg) no-repeat;
+	  background-size: contain;
+	  background-color: #FAF3ED;
+}
+.fix{
+	clear: both;
+	content: "";
+	display: block;
+}
+ul{
+	list-style: none;
+}
+img{
+	width: 100%;
+}
+a{
+	color: #333;
+}
+.container{
+	position: relative;
+	top: 50px;
+}
+.logo img{
+	width: 100%;
+}
+.sec1{
+	padding-bottom:9%;
+}
+.forms{
+	margin-top: 3%;
+}
+.glyphicon-search{
+	position: relative;
+	right: 30px;
+}
+.sec2 .log{
+	margin-top: 3%;
+	height: 250px;
+}
+.sec2 .log a{
+	height: 100%;
+	width: 234px;
+}
+.log img{
+	border-radius: 5px;
+	border:1px solid #ccc;
+}
+.title{
+	display: block;
+	position: relative;
+	bottom: 40px;
+	height: 40px;
+	width:100%;
+	background-color: #333;
+	opacity: 0.25;
+	z-index: 20;
+	border-radius: 5px;
+}
+.sp{
+	display: block;
+	color: #fff;
+	position: relative;
+	bottom: 70px;
+	left: 50px;
+	z-index: 40;
+	height: 30px;
+}
+p{
+	width: 93%;
+	display: none;
+	position:absolute;
+	bottom:60%;
+	color: #fff;
+	z-index: 40;
+}
+.log a:hover{
+	text-decoration: none;
+}
+.zhuanti h3, .active h3{
+	border-bottom: 1px solid #ccc;
+}
+.sec3{
+	padding-top: 10px;
+	margin-left: 20px;
+	padding-bottom: 50px;
+
+}
+.sec3 .zhuanti li{
+	height: 170px;
+}
+.sec3 .img{
+	float: left;
+	width:25%;
+	height: 150px;
+	margin-right: 2%;
+}
+.sec3 .img img{
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+}
+.sec3 .des{
+	float: left;
+	width: 73%;
+}
+.des .t{
+	font-size: 20px;
+}
+.des .con{
+	width: 100%;
+	color: #999;
+}
+.sec3 .left{
+	float: left;
+	width: 25%;
+	margin-right: 2%;
+}
+.sec3 .right{
+	float: left;
+	width: 73%;
+}
+.sec3 .play{
+	height: 80px;
+	line-height: 80px;
+}
+.sec3 .play a{
+	color:#BA2020;
+}
+.hh{
+	position:fixed;
+	right:20px;
+	top:70px;
+}
